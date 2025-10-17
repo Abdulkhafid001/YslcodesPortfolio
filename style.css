@@ -155,6 +155,8 @@ body {
         min-width: 100%;
     }
 
+
+
     .page-body {
         display: block;
     }
@@ -167,6 +169,8 @@ body {
         overflow-x: hidden;
         color: black;
         width: 100%;
-        padding: 1em;
+        padding: 1em 0;
     }
+
+
 }
