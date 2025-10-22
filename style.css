@@ -154,6 +154,24 @@ body {
     line-height: 1.5;
 }
 
+
+.pill {
+    color: white;
+    background-color: #353535;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.view-project-btn {
+    text-decoration: none;
+    color: #09090B;
+    background-color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-left: 110px;
+}
+
 /* Skills */
 .skills-section {
     max-width: 1200px;
@@ -230,6 +248,19 @@ body {
         color: black;
         width: 100%;
         padding: 1em 0;
+    }
+
+    .pill {
+        color: white;
+        background-color: #353535;
+        padding: 9px;
+        border-radius: 15px;
+    }
+
+
+    .view-project-btn {
+
+        margin-left: 10px;
     }
 
     .section-title {
