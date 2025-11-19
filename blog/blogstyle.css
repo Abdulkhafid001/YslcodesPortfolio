@@ -1,0 +1,38 @@
+body {
+    background-color: #1D1D20;
+    font-family: "Inter", sans-serif;
+    padding: 0 40px;
+}
+
+
+.title {
+    font-size: 34px;
+    color: #FF5345;
+}
+
+p {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
+}
+
+ol {
+    padding-left: 0;
+}
+
+.activity {
+    color: #FF5345;
+}
+
+
+@media screen and (max-width:500px) {
+    body {
+        padding: 0 15px;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+}
