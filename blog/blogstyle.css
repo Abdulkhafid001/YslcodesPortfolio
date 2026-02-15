@@ -26,6 +26,10 @@ ol {
     color: #FF5345;
 }
 
+.img-responsive {
+    width: 100%;
+    margin: 10px 10px 0 10px;
+}
 
 @media screen and (max-width:500px) {
     body {
@@ -34,5 +38,6 @@ ol {
 
     .img-responsive {
         width: 100%;
+        margin: 10px 10px 0 10px;
     }
 }
