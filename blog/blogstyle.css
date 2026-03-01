@@ -18,6 +18,14 @@ p {
     line-height: 27px;
 }
 
+ul {
+    color: white;
+}
+
+.subtitle{
+    font-size: 17px;
+    color: #FF5345;
+}
 ol {
     padding-left: 0;
 }
