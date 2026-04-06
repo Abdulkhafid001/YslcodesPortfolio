@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 *,
 *::before,
@@ -36,77 +37,36 @@ body {
 a {
     text-decoration: none;
     /* color: inherit; */
-    color: #c43670;
+    /* color: #c43670; */
 }
+
 
 /* NAV */
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 40px 60px;
-    background: var(--cream);
-}
-
-.nav-logo {
-    color: rgb(240, 204, 223);
-    font-weight: 700;
-    font-size: 42px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    letter-spacing: .5px;
+    padding: 46px 128px;
 }
 
-.nav-links {
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    list-style: none;
-}
 
-.nav-links a {
-    font-size: 13px;
-    color: var(--text);
-    font-weight: 700;
-    transition: opacity .2s;
-}
-
-.nav-links a:hover {
-    opacity: .55;
-}
-
-.btn-consult {
-    background: var(--btn-text-pink);
-    color: #c43670 !important;
-    padding: 16px 17px;
-    border-radius: 999px;
-    font-size: 12.5px;
-    font-weight: 700;
-    transition: opacity .2s;
-}
-
-.test {
-    font-family: saans, "saans Fallback";
-    font-size: 57.3433px;
-    font-weight: 600;
-    line-height: 63.0776px;
-    color: rgb(240, 204, 223);
-}
-
-.btn-consult:hover {
-    opacity: .85 !important;
+.cta-btn a {
+    background-color: #EFCCDF;
+    color: #C43670;
+    font-size: 24px;
+    padding: 16px 25px;
+    letter-spacing: 1.5px;
+    border-radius: 32px;
 }
 
 /* HERO */
 .hero {
-    width: 80%;
-    margin: 56px auto 52px;
-    padding: 0 60px;
+    width: 100%;
+    /* margin: 56px auto 52px; */
+    padding: 0 128px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
 }
 
 .hero-text {
@@ -169,7 +129,7 @@ nav {
     width: 100%;
     height: 100%;
     /* background: linear-gradient(135deg, #e8d5cc 0%, #c9b5af 50%, #d4b8b0 100%); */
-    background-image: url(./assets/Profile\ picture.png);
+    background-image: url(./assets/Myprofilepic.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,18 +141,72 @@ nav {
     display: block;
 }
 
+/* CASE STUDIES */
 .casestudies {
-    width: 90;
+    width: 90%;
+    margin: 48px auto;
+    font-family: "Arimo", sans-serif;
+    padding: 128px 0;
 }
 
-.card {}
+.card {
+    background: #A5C572;
+    text-align: center;
+    padding: 20px;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 40px;
 
-.outline {
-    outline: 1px solid red;
 }
 
-.card-kuma {}
+.casestudy-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.app-mockups-banner {}
+
+.app-mockups-banner img {
+    height: 400px;
+}
+
+.app-type-pills {
+    display: block;
+    margin: 16px 0;
+
+}
+
+.app-type-pills span {
+    background: #E0EAD0;
+    padding: 8px 16px;
+    /* margin-: 8px; */
+    border-radius: 24px;
+    margin-right: 8px;
+}
+
+.app-info {
+    margin: 40px 0;
+}
+
+.app-type {
+    color: #3D7337;
+}
+
+.app-name {
+    font-size: 3em;
+    color: #3D7337;
+    font-weight: 900;
+}
+
+.app-description h4 {
+    color: #3D7337;
+}
+
+.app-description p {
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #3D7337;
+}
 
 .btn-case {
     display: inline-flex;
@@ -223,68 +237,148 @@ nav {
 
 /* FOOTER */
 footer {
-    background: #F5F5F4;
-    color: var(--cream);
-    margin-top: 90px;
-    padding: 55px 60px 28px;
+    background-color: #F5F5F4;
+    padding: 128px 16px;
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    max-width: 80%;
-    margin: 0 auto 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .footer-col h4 {
-    font-size: 42px;
-    font-weight: 500;
-    color: var(--cream);
-    margin-bottom: 15px;
+    font-size: 3em;
+    color: rgb(196, 54, 112);
 }
 
-.footer-col ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+.footer-col ul {}
 
 .footer-col ul a {
-    font-size: 23px;
-    color: var(--cream);
-    transition: color .2s;
+    font-weight: 600;
+    font-size: 22.9373px;
+    color: rgb(196, 54, 112);
 }
 
 .footer-bottom {
-    max-width: 80%;
-    margin: 0 auto;
-    border-top: 1px solid #252525;
-    padding-top: 18px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    font-size: 16px;
-    color: var(--cream);
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid rgb(196, 54, 112);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-bottom span {
+    font-weight: 500;
+    color: rgb(196, 54, 112);
 }
 
 /* Mobile Screens */
 @media screen and (max-width:768px) {
-    body {}
-
-    .hero-photo {}
 
     .d-none-mobile {
         display: none;
     }
 
+    /* NAV */
+    /* NAV */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
 
+    .logo-placeholder img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cta-btn a {
+        background-color: #EFCCDF;
+        color: #C43670;
+        font-size: 16px;
+        padding: 8px 16px;
+        letter-spacing: 1.5px;
+        border-radius: 32px;
+    }
+
+    /* HERO */
+    .hero {
+        width: 100%;
+        margin: 0;
+        padding: 48px 0 0 0;
+        display: block;
+        text-align: center;
+    }
+
+    .hero-text {
+        display: block;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5em;
+        font-weight: 400;
+        line-height: 1.25;
+        margin-bottom: 14px;
+        font-family: "Instrument Sans", sans-serif;
+    }
+
+    .hero-text h1 strong {
+        font-weight: 700;
+    }
+
+    .hero-desc {
+        font-size: 16px;
+        color: var(--text);
+        line-height: 1.65;
+        /* max-width: 280px; */
+        margin-bottom: 11px;
+        font-family: "Instrument Sans", sans-serif;
+    }
+
+    .hero-icons {
+        display: none;
+    }
+
+    .hero-icons a {
+        display: none;
+    }
+
+    .hero-icons a:hover {
+        border-color: var(--blue);
+        background: var(--blue-light);
+    }
+
+    .hero-photo {
+        width: 285px;
+        height: 285px;
+        border-radius: 16px;
+        overflow: hidden;
+        flex-shrink: 0;
+        border: 3px solid var(--text);
+        margin: 24px auto;
+    }
+
+    .hero-photo-placeholder {
+        width: 100%;
+        height: 100%;
+        /* background: linear-gradient(135deg, #e8d5cc 0%, #c9b5af 50%, #d4b8b0 100%); */
+        background-image: url(./assets/Myprofilepic.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
     /* CASE STUDIES */
     .casestudies {
         width: 90%;
-        margin: 20px auto;
+        margin: 24px auto;
+        padding: 48px 0;
         font-family: "Arimo", sans-serif;
     }
 
@@ -293,7 +387,12 @@ footer {
         text-align: center;
         padding: 20px;
         font-family: "Ubuntu", sans-serif;
+        border-radius: 20px;
 
+    }
+
+    .casestudy-info {
+        display: block;
     }
 
     .app-mockups-banner {}
@@ -342,4 +441,41 @@ footer {
         color: #3D7337;
     }
 
+    /* FOOTER */
+    footer {
+        padding: 48px 16px;
+    }
+
+    .footer-grid {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer-col h4 {
+        font-size: 3em;
+        color: rgb(196, 54, 112);
+    }
+
+    .footer-col ul {}
+
+    .footer-col ul a {
+        font-weight: 600;
+        font-size: 1.5em;
+        color: rgb(196, 54, 112);
+    }
+
+    .footer-bottom {
+        display: block;
+        /* padding-top: 20px; */
+        border-top: 1px solid rgb(196, 54, 112);
+        width: 100%;
+        margin: auto 16px;
+    }
+
+
+    .footer-bottom span {
+        font-weight: 500;
+        color: rgb(196, 54, 112);
+    }
 }
