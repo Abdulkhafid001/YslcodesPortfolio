@@ -26,6 +26,11 @@
     --new-card-text-color: #1A4A4A;
 }
 
+/* Utiility Classes */
+.mx-normal {
+    margin: 48px 0;
+}
+
 body {
     font-family: var(--font);
     background: var(--cream);
@@ -206,6 +211,7 @@ nav {
     letter-spacing: 1px;
     font-weight: 500;
     color: #3D7337;
+    text-align: center;
 }
 
 .btn-case {
@@ -279,6 +285,11 @@ footer {
 
 /* Mobile Screens */
 @media screen and (max-width:768px) {
+
+    /* Utility classes */
+    .mx-normal {
+        margin: 48px 0;
+    }
 
     .d-none-mobile {
         display: none;
