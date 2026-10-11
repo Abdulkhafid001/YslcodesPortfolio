@@ -31,6 +31,10 @@
     margin: 48px 0;
 }
 
+.abujamarkt-color{
+    background-color: #FFE27D;
+}
+
 body {
     font-family: var(--font);
     background: var(--cream);
@@ -173,6 +177,7 @@ nav {
 
 .app-mockups-banner img {
     height: 400px;
+    width: 100%;
 }
 
 .app-type-pills {
